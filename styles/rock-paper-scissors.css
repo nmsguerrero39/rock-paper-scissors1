@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button,
+.confirmation-message-box button {
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.confirmation-message-box {
+  width: 430px;
+  margin-top: 10px;
+  padding: 10px 5px;
+}
+
+.confirmation-message-box p {
+  display: inline;
+}
+
+.confirmation-message-box button {
+  margin: 0px 5px;
+}
+
+.last-buttons-box-container {
+  margin-bottom: 32px;
+}
+
+.full-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  width: 500px;
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
